@@ -53,10 +53,12 @@ body{
 
 .placement_container .placement_stat .one .details{
     margin-top: 20px;
+    display: flex;
 }
 
 .placement_container .placement_stat .one .details .color{
     margin-top: 20px;
+    border-bottom: 1px solid brown;
 }
 
 .placement_container .placement_stat .one .details .color h3{
@@ -70,13 +72,28 @@ body{
     font-size: 18px;
 }
 
-.placement_container .placement_stat .one .details p{
+.placement_container .placement_stat .one .details .text{
+    /* flex: 1; */
+}
+
+.placement_container .placement_stat .one .details .image{
+    display: flex;
+    margin-left: 10px;
+}
+
+.placement_container .placement_stat .one .details .img{
+    width: 270px;
+    height: 300px;
+    margin-left: 10px;
+}
+
+.placement_container .minor{
     margin-top: 30px;
     text-align: center;
     font-size: 20px;
-    /* color: brown; */
+    color: brown;
 }
 
 .placement_container .placement_stat .one .details p strong{
-    color: brown
+    color: brown;
 }
